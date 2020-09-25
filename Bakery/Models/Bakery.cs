@@ -4,9 +4,17 @@ namespace Bakery.Models
 {
   public class Bread
   {
-    public static int BreadSale(int input)
+    public static int BreadReg(int input)
     {
       return (input * 5);
+    }
+    public static int BreadSale(int input)
+    {
+      int reg = (input * 5);
+      int sale = (reg / 3);
+      int newPrice = (reg - sale);
+
+      return (newPrice);
     }
   }
   public class Pastery
