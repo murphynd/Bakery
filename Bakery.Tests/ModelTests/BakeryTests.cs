@@ -58,7 +58,7 @@ namespace Bakery.Tests
     {
       //Arrange
       int input = 2;
-      int result = 10;
+      int result = 4;
       Pastery newOrder = new Pastery(input);
       //Act
       int sale = newOrder.PasteryRegPrice();
