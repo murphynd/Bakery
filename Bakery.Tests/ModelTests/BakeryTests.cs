@@ -65,6 +65,18 @@ namespace Bakery.Tests
       //Assert
       Assert.AreEqual(result, sale);
     }
+    [TestMethod]
+    public void getInput_PastrySale_Int()
+    {
+      //Arrange
+      int input = 4;
+      int result = 7;
+      Pastery newOrder = new Pastery(input);
+      //Act
+      int sale = newOrder.PasterySale();
+      //Assert
+      Assert.AreEqual(result, sale);
+    }
   }
 }
 
