@@ -47,7 +47,7 @@ namespace Bakery.Tests
     public void CreatePasteryOrder_PasteryRegInt_Int()
     {
       //Arrange
-      int input = 3;
+      int input = 4;
       //Act
       Pastery newOrder = new Pastery(input);
       //Assert
@@ -57,8 +57,8 @@ namespace Bakery.Tests
     public void getInput_PastryRegPricecheck_Int()
     {
       //Arrange
-      int input = 2;
-      int result = 4;
+      int input = 4;
+      int result = 8;
       Pastery newOrder = new Pastery(input);
       //Act
       int sale = newOrder.PasteryRegPrice();
