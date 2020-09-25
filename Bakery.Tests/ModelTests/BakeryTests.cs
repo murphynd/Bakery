@@ -10,34 +10,47 @@ namespace Bakery.Tests
   public class BakeryTests
   {
     [TestMethod]
-    public void getInput_BreadRegInt_Int()
+    public void Createbread_BreadRegInt_Int()
     {
       //Arrange
       int input = 3;
-      int result = 15;
-
       //Act
-      int sale = Bread.BreadReg(input);
+      Bread newOrder = new Bread(input);
 
       //Assert
-      Assert.AreEqual(sale, result);
-    }
-
-    [TestMethod]
-    public void getInput_BreadSalecheck_Int()
-    {
-      //Arrange
-      int input = 2;
-      int result = 10;
-
-      //Act
-      int sale = Bread.BreadSale(input);
-
-      //Assert
-      Assert.AreEqual(result, sale);
+      Assert.AreEqual(typeof(Bread), newOrder.GetType());
     }
   }
 }
+//     [TestMethod]
+//     public void getInput_BreadRegInt_Int()
+//     {
+//       //Arrange
+//       int input = 3;
+//       int result = 15;
+
+//       //Act
+//       int sale = Bread.BreadReg(input);
+
+//       //Assert
+//       Assert.AreEqual(sale, result);
+//     }
+
+//     [TestMethod]
+//     public void getInput_BreadSalecheck_Int()
+//     {
+//       //Arrange
+//       int input = 2;
+//       int result = 10;
+
+//       //Act
+//       int sale = Bread.BreadSale(input);
+
+//       //Assert
+//       Assert.AreEqual(result, sale);
+//     }
+//   }
+// }
 //[TestMethod]
 // public void GetWord_ReturnsWord_String()
 // {

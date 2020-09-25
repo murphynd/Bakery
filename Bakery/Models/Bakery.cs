@@ -4,30 +4,33 @@ namespace Bakery.Models
 {
   public class Bread
   {
-    public static int BreadReg(int input)
+    public int Amount { get; set; }
+    public Bread(int amount)
     {
-      return (input * 5);
-    }
-    public static int BreadSale(int input)
-    {
-      int userinput = input;
-      int price = 5;
-      int regPrice = (price * userinput);
-      int PriceOfThree = (price * 3);
-
-      int totalcost = regPrice;
-      int discount = (totalcost - PriceOfThree);
-      return (regPrice);
-    }
-  }
-  public class Pastery
-  {
-    public static int PasterySale(int input)
-    {
-      return 6;
+      Amount = amount;
     }
   }
 }
+//   public static int BreadSale(int input)
+//   {
+//     int userInput = input;
+//     int price = 5;
+//     int regPrice = (price * userInput);
+
+
+//     int totalcost = regPrice;
+//     int discount = (priceOfThree - totalcost);
+//     return (discount);
+//   }
+// }
+// public class Pastery
+// {
+//   public static int PasterySale(int input)
+//   {
+//     return 6;
+//   }
+// }
+
 //   public static int scrabbleSolver(char letter)
 //   {
 //     switch (Char.ToLower(letter))
