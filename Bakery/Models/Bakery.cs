@@ -10,11 +10,14 @@ namespace Bakery.Models
     }
     public static int BreadSale(int input)
     {
-      int reg = (input * 5);
-      int sale = (reg / 3);
-      int newPrice = (reg - sale);
+      int userinput = input;
+      int price = 5;
+      int regPrice = (price * userinput);
+      int PriceOfThree = (price * 3);
 
-      return (newPrice);
+      int totalcost = regPrice;
+      int discount = (totalcost - PriceOfThree);
+      return (regPrice);
     }
   }
   public class Pastery

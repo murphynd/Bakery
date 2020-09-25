@@ -61,6 +61,22 @@ output: for every 3 pasteries its $1 dollar off (3 for $5)
 
 C#
 
+## Math Used
+
+get 1 … what? free? half-price? something else?
+
+Let 𝑥= price of 1 item
+
+Then 3𝑥= price of 3 items
+
+Buy 2 , get 1 free
+
+Total cost =2𝑥
+
+Discount =3𝑥−2𝑥=𝑥
+
+- Source: [Elaine Dawe](https://www.quora.com/profile/Elaine-Dawe)
+
 ### License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

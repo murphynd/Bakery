@@ -34,7 +34,7 @@ namespace Bakery.Tests
       int sale = Bread.BreadSale(input);
 
       //Assert
-      Assert.AreEqual(sale, result);
+      Assert.AreEqual(result, sale);
     }
   }
 }
