@@ -18,7 +18,7 @@ two classes: one for Bread and one for Pastry.
 
 - welcome to the Bakery!
 - buy a 🥖 loaf for \$5
-- but a 🍰 Pastery for \$2
+- buy a 🍰 Pastery for \$2
 
 Manager special!:
 Bread is buy 2 get one free!
