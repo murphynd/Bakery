@@ -41,7 +41,7 @@ namespace Bakery.Tests
       //Arrange
 
       int input = 3;
-      int result = 11;
+      int result = 10;
       Bread OtherOrder = new Bread(input);
 
       //Act

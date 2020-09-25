@@ -17,8 +17,7 @@ namespace Bakery.Models
     }
     public int BreadSale()
     {
-      int price = 5;
-      int SalePrice = Amount * price;
+      int SalePrice = (Amount / 3) * 10;
       return (SalePrice);
     }
   }
