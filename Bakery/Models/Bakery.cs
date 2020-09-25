@@ -6,7 +6,7 @@ namespace Bakery.Models
   {
     public static int BreadSale(int input)
     {
-      return 5;
+      return (input * 5);
     }
   }
   public class Pastery

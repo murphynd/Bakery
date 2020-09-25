@@ -13,13 +13,14 @@ namespace Bakery.Tests
     public void getInput_BreadSaleInt_Int()
     {
       //Arrange
-      int input = 4;
+      int input = 5;
+      int sale = Bread.BreadSale(input);
 
       //Act
-      int result = Bread.BreadSale(input);
+      int result = 14;
 
       //Assert
-      Assert.AreEqual(input, result);
+      Assert.AreEqual(sale, result);
     }
   }
 }
