@@ -20,35 +20,24 @@ namespace Bakery.Tests
       //Assert
       Assert.AreEqual(typeof(Bread), newOrder.GetType());
     }
+
+    [TestMethod]
+    public void getInput_BreadRegPricecheck_Int()
+    {
+      //Arrange
+
+      int input = 2;
+      int result = 10;
+      Bread newOrder = new Bread(input);
+
+      //Act
+      int sale = newOrder.BreadRegPrice();
+
+      //Assert
+      Assert.AreEqual(result, sale);
+    }
   }
 }
-//     [TestMethod]
-//     public void getInput_BreadRegInt_Int()
-//     {
-//       //Arrange
-//       int input = 3;
-//       int result = 15;
-
-//       //Act
-//       int sale = Bread.BreadReg(input);
-
-//       //Assert
-//       Assert.AreEqual(sale, result);
-//     }
-
-//     [TestMethod]
-//     public void getInput_BreadSalecheck_Int()
-//     {
-//       //Arrange
-//       int input = 2;
-//       int result = 10;
-
-//       //Act
-//       int sale = Bread.BreadSale(input);
-
-//       //Assert
-//       Assert.AreEqual(result, sale);
-//     }
 //   }
 // }
 //[TestMethod]

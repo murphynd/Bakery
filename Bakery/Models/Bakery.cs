@@ -9,19 +9,14 @@ namespace Bakery.Models
     {
       Amount = amount;
     }
+    public int BreadRegPrice()
+    {
+      int price = 5;
+      int regPrice = (price * Amount);
+      return (regPrice);
+    }
   }
 }
-//   public static int BreadSale(int input)
-//   {
-//     int userInput = input;
-//     int price = 5;
-//     int regPrice = (price * userInput);
-
-
-//     int totalcost = regPrice;
-//     int discount = (priceOfThree - totalcost);
-//     return (discount);
-//   }
 // }
 // public class Pastery
 // {
