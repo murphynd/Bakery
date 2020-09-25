@@ -20,3 +20,4 @@ namespace Bakery
       // Console.WriteLine("The score is " + Words.getWordScore(input));
     }
   }
+}
