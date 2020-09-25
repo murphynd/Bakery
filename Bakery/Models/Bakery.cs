@@ -18,7 +18,7 @@ namespace Bakery.Models
     public int BreadSale()
     {
       int price = 5;
-      int SalePrice = (price * Amount);
+      int SalePrice = Amount * price;
       return (SalePrice);
     }
   }

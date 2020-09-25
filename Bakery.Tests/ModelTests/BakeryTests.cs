@@ -20,7 +20,6 @@ namespace Bakery.Tests
       //Assert
       Assert.AreEqual(typeof(Bread), newOrder.GetType());
     }
-
     [TestMethod]
     public void getInput_BreadRegPricecheck_Int()
     {
@@ -36,6 +35,7 @@ namespace Bakery.Tests
       //Assert
       Assert.AreEqual(result, sale);
     }
+    [TestMethod]
     public void getInput_BreadSale_Int()
     {
       //Arrange
@@ -46,6 +46,8 @@ namespace Bakery.Tests
 
       //Act
       int sale = OtherOrder.BreadSale();
+      Console.WriteLine(result);
+      Console.Write(sale);
 
       //Assert
       Assert.AreEqual(result, sale);
