@@ -36,6 +36,20 @@ namespace Bakery.Tests
       //Assert
       Assert.AreEqual(result, sale);
     }
+    public void getInput_BreadSale_Int()
+    {
+      //Arrange
+
+      int input = 3;
+      int result = 11;
+      Bread OtherOrder = new Bread(input);
+
+      //Act
+      int sale = OtherOrder.BreadSale();
+
+      //Assert
+      Assert.AreEqual(result, sale);
+    }
   }
 }
 //   }

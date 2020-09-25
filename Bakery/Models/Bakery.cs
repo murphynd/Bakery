@@ -15,6 +15,12 @@ namespace Bakery.Models
       int regPrice = (price * Amount);
       return (regPrice);
     }
+    public int BreadSale()
+    {
+      int price = 5;
+      int SalePrice = (price * Amount);
+      return (SalePrice);
+    }
   }
 }
 // }
